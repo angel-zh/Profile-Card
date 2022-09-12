@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    text-align: center;
+    background: rgb(13, 84, 85);
+}
+
+p {
+    color: grey;
+}
+
+img {
+    border-radius: 50%;
+    border: 4px solid rgb(87, 202, 127);
+    width: 150px;
+}
+
+#cardContainer {
+    width: 350px;
+    margin: 0 auto;
+    background: white;
+}
+
+#status {
+    display: flex;
+    justify-content: flex-end;
+    color: lightgrey;
+    padding: 15px 20px 0 0;
+}
+
+#starsContainer {
+    background: rgb(241, 241, 241);
+    padding: 20px 0 10px 0;
+}
+
+#rateContainer {
+    margin: 30px;
+}
+
+#rateContainer p {
+    margin: 5px;
+}
+
+#freeRate {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#iconsContainer {
+    display: flex;
+}
+
+#phone {
+    background: rgb(86, 204, 108);
+    flex: 1;
+    padding: 20px 0;
+}
+
+#chat {
+    background: rgb(76, 181, 114);
+    flex: 1;
+    padding: 20px 0;
+}
